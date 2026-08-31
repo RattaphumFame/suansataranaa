@@ -1,0 +1,15 @@
+meta {
+  name: Search Parks by District
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{baseUrl}}/parks/search?district=เขตจตุจักร
+  body: none
+  auth: none
+}
+
+params:query {
+  district: เขตจตุจักร
+}
